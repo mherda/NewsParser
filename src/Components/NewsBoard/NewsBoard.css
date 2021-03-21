@@ -1,0 +1,22 @@
+.newsboard {
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-article {
+  display: flex;
+  flex-direction: row;
+}
+.articles {
+  flex: 3;
+}
+
+.sources {
+  flex: 1;
+}
+app-filters {
+  display: flex;
+  flex-direction: row;
+}

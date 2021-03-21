@@ -1,0 +1,22 @@
+.articleItem {
+  display: flex;
+  width: 100%;
+}
+
+.articleItem > * {
+  padding: 0.5rem;
+}
+
+.img-thumbnail {
+  width: 50px;
+  height:50px;
+}
+
+.article-details {
+  display: flex;
+  flex-direction: column;
+}
+.article-details__bottom {
+  display: flex;
+  justify-content: space-between;
+}
